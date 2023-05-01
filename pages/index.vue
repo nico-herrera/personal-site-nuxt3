@@ -94,7 +94,10 @@ onUnmounted(() => {
 				</ul>
 			</nav>
 		</header>
-		<section id="home" class="h-[94vh] flex items-center justify-center">
+		<section
+			id="home"
+			class="h-screen md:h-[94vh] flex items-center justify-center"
+		>
 			<div class="px-8 py-32">
 				<div class="grid gap-8 items-start justify-center">
 					<div class="relative group">
@@ -113,7 +116,7 @@ onUnmounted(() => {
 			</div>
 		</section>
 
-		<div class="wrapper relative">
+		<div class="wrapper relative px-4 md:px-0">
 			<span id="about" class="absolute -top-20"></span>
 
 			<section class="two h-screen w-full">
@@ -122,10 +125,13 @@ onUnmounted(() => {
 						class="stepped-animation h-full overflow-y-auto relative text-2xl text-gray-100 flex items-start md:justify-center md:items-center flex-col"
 					>
 						<div
-							class="flex items-center justify-center flex-col mt-20 md:mt-0 md:mb-72"
+							class="flex items-center justify-center flex-col mt-4 md:mt-0 md:mb-72"
 						>
-							<h2 class="text-5xl font-bold mb-6 text-center">Who is Nico?</h2>
-							<p class="text-center mb-3"
+							<h2
+								class="text-3xl md:text-5xl font-bold mb-2 md:mb-6 text-center"
+								>Who is Nico?</h2
+							>
+							<p class="text-center mb-3 text-xl md:text-2xl"
 								>Hello, thanks for visiting my website! Scroll to learn about
 								me.
 							</p>
