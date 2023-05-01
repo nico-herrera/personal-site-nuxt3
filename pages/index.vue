@@ -70,6 +70,10 @@ onUnmounted(() => {
 </script>
 
 <template>
+	<Head>
+		<Title>Full-Stack Web Developer</Title>
+		<Meta name="description" content="Nico Herrera's Portfolio" />
+	</Head>
 	<main class="bg-slate-900 relative tracking-wider">
 		<header class="sticky top-0 shadow-md backdrop-blur-md z-10">
 			<nav
